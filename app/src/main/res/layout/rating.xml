@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate Us!"
+        android:textSize="64dp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:rating="3"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:progressTint="#D3C652"
+        android:secondaryProgressTint="#D3C652"
+        android:progressBackgroundTint="#94977C"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:id="@+id/feedback"
+        android:layout_marginTop="32dp"
+        android:hint="  Provide Feedback..."
+        android:background="#EAEAEA"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="32dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="#673AB7"
+        android:text="Submit"/>
+
+</LinearLayout>
